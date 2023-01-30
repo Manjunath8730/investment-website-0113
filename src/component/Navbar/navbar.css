@@ -1,0 +1,92 @@
+.navbar {
+    width: 100%;
+    /* height: 200px; */
+    background-color: rgb(240, 243, 243);
+    /* position: fixed;
+    top: 0;
+    left: 0; */
+}
+
+.navbar .navContainer {
+    width: 90%;
+    /* border: 2px solid black; */
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    /* height: 100%; */
+    /* padding: 4px 0; */
+
+}
+
+.navContainer .navLeft {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navLeft .logoImage {
+    width: 90px;
+    height: 90px;
+}
+
+.logoImage img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.navLeft .logoTitle {
+    color: rgb(108, 10, 125);
+}
+
+.logoTitle span {
+    color: rgb(26, 185, 81);
+}
+
+
+
+.navContainer .navCenter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.navCenter ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.navCenter ul li {
+    list-style: none;
+    font-size: 20px;
+}
+
+
+.navContainer .navRight {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    font-size: 18px;
+}
+
+.navRight .navContact {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    cursor: pointer;
+}
+
+.navRight .navBtn {
+    padding: 8px 12px;
+    background-color: rgb(162, 148, 231);
+    border-radius: 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
